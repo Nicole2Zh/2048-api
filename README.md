@@ -7,6 +7,12 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
     * [`agents.py`](game2048/agents.py): the `Agent` class with instances.
     * [`displays.py`](game2048/displays.py): the `Display` class with instances, to show the `Game` state.
     * [`expectimax/`](game2048/expectimax): a powerful ExpectiMax agent by [here](https://github.com/nneonneo/2048-ai).
+    * [`data_gene.py`](game2048/data_gene.py): code to generate data from ExpectiMaxAgent.
+    * [`RC_Model.py`](game2048/RC_Model.py): model that merge RNN and CNN.
+    * [`train_RC.py`](game2048/train_RC.py): code to train RC Model.
+    * [`CNN_Model.py`](game2048/CNN_Model.py): CNN Model.
+    * [`train_CNN.py`](game2048/train_CNN.py): code to train CNN Model.
+    * [`model_rc256`](game2048/model_rc256): result model that I train.
 * [`explore.ipynb`](explore.ipynb): introduce how to use the `Agent`, `Display` and `Game`.
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
@@ -50,5 +56,5 @@ python webapp.py
 # LICENSE
 The code is under Apache-2.0 License.
 
-# For EE369 students from SJTU only
-Please read course project [requirements](EE369.md) and [description](Project2048.pdf). 
+# For EE369 / EE228 students from SJTU
+Please read course project [requirements](EE369.md) and [description](https://docs.qq.com/slide/DS05hVGVFY1BuRVp5). 
