@@ -19,24 +19,24 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
 * [`evaluate.py`](evaluate.py): evaluate your self-defined agent.
 
 #To generate data
-'''
+```
 python data_gene.py
-'''
+```
 
 #To train model
-'''
+```
 python train_RC.py
-'''
+```
 
 #To evaluate the model
-'''
+```
 python evaluate.py >> EE369_evaluation.log
-'''
+```
 
 #To generate fingerprint
-'''
+```
 python generate_fingerprint.py
-'''
+```
 
 # Requirements
 * code only tested on linux system (ubuntu 16.04)
